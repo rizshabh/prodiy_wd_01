@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Interactive Navigation Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <h1 class="brand">My Projects</h1>
+            <ul>
+                <li><a href="#klubk9" class="active">Klub K9</a></li>
+                <li><a href="#crystalcave">The Crystal Cave</a></li>
+                <li><a href="#branding">Branding Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <section id="klubk9" class="section klubk9" data-color="#d7b68b">
+            <div class="overlay">
+                <h2>Klub K9 - Pet Clinic</h2>
+                <p>Your one-stop solution for pet care, with a professional, full-display website design and advanced ASP.NET features.</p>
+                <button onclick="alert('Discover more about Klub K9!')">Learn More</button>
+            </div>
+        </section>
+
+        <section id="crystalcave" class="section crystalcave" data-color="#a8dadc">
+            <div class="overlay">
+                <h2>The Crystal Cave - Hotel</h2>
+                <p>Luxury and comfort combined in a professional, powder blue-themed hotel website, offering a seamless booking experience.</p>
+                <button onclick="alert('Explore The Crystal Cave!')">Explore</button>
+            </div>
+        </section>
+
+        <section id="branding" class="section branding" data-color="#f4a261">
+            <div class="overlay">
+                <h2>Branding Project</h2>
+                <p>A comprehensive branding strategy for a new clothing brand, including brand elements, target audience analysis, and positioning.</p>
+                <button onclick="alert('Discover the Branding Project!')">See More</button>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact" data-color="#d9ed92">
+            <div class="overlay">
+                <h2>Contact Me</h2>
+                <p>Let's connect and bring your digital ideas to life! Reach out for collaboration and project inquiries.</p>
+                <button onclick="alert('Let\'s Connect!')">Get in Touch</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
